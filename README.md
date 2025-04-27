@@ -38,3 +38,6 @@ todo-list/ ├── index.html ├── styles.css ├── script.js ├─�
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/SumitNarwade24/To-do-List.git
+
+ 📃 License
+This project is open-source and free to use.
