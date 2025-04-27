@@ -1,0 +1,250 @@
+
+ :root {
+    --background: #000430;
+    --secondaryBackground: #171c48;
+    --text: #fff;
+    --purple: #828dff;
+    --teal: #24feee;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: var(--background);
+    color: var(--text);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.head-Section {
+    height: auto;
+    width: 500px;
+    border: 2px solid var(--purple);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: bolder;
+    gap: 20px;
+}
+
+.header {
+    height: 150px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.task-list {
+    height: 8rem;
+    width: 8rem;
+    background-color: var(--purple);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 40px;
+    font-weight: bolder;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.progress-bar {
+    height: 15px;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: var(--secondaryBackground);
+}
+
+.progress {
+    height: 10px;
+    width: 0%;
+    border-radius: 10px;
+    background-color: var(--teal);
+    transition: all 0.3s ease;
+}
+
+.add-task {
+    height: auto;
+    width: 525px;
+}
+
+form {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+#input {
+    width: 85%;
+    height: 2.5rem;
+    border-radius: 15px;
+    border: 2px solid var(--purple);
+    background-color: var(--background);
+    color: var(--text);
+    font-size: 20px;
+    padding: 10px;
+}
+
+#Add {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight: bolder;
+    color: var(--text);
+    background-color: var(--purple);
+    border: 2px solid var(--purple);
+}
+
+.task {
+    width: 33%;
+    min-width: 300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.TaskItem {
+    height: fit-content;
+    width: 100%;
+    border: 2px solid var(--secondaryBackground);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px;
+    overflow: auto;
+}
+
+.TaskItem img {
+    width: 30px;
+    height: 30px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.Task {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 20px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.checkbox {
+    height: 20px;
+    width: 20px;
+}
+
+.completed p {
+    text-decoration: line-through;
+    color: var(--teal);
+}
+.message{
+    font-weight: 100;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media (max-width: 768px) {
+    .head-Section {
+        width: 90%;
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    .header {
+        width: 60%;
+        gap: 15px;
+    }
+
+    .task-list {
+        height: 6rem;
+        width: 6rem;
+        font-size: 30px;
+    }
+
+    .add-task {
+        width: 90%;
+    }
+
+    #input {
+        font-size: 18px;
+    }
+
+    .task {
+        width: 90%;
+    }
+}
+@media (max-width: 480px) {
+    .head-Section {
+        width: 95%;
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .header {
+        width: 65%;
+        gap: 10px;
+    }
+
+    .task-list {
+        height: 5rem;
+        width: 5rem;
+        font-size: 25px;
+    }
+
+    .add-task {
+        width: 95%;
+    }
+
+    #input {
+        width: 75%;
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    #Add {
+        height: 40px;
+        width: 40px;
+        font-size: 25px;
+    }
+
+    .task {
+        width: 95%;
+    }
+
+    .TaskItem {
+        font-size: 16px;
+    }
+}
