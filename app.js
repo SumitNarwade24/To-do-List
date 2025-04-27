@@ -93,8 +93,8 @@ let updateList = ()=>{
                 <p>${task.text}</p>
             </div>
             <div class="icons">
-                <img src="edit.png" onClick="editTask(${index});"/>
-                <img src="delete.png" onClick="DeleteTask(${index});"/>
+                <img src="LICENSE/edit.png" onClick="editTask(${index});"/>
+                <img src="LICENSE/delete.png" onClick="DeleteTask(${index});"/>
             
             </div>
         </div>
