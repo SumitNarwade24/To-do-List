@@ -25,12 +25,12 @@ Check out the live version of the project here:
 
 ## 📂 Project Structure
 
-todo-list/ ├── index.html ├── styles.css ├── script.js ├── README.md └── LICENSE
+todo-list/ ├── index.html ├── styles.css ├── script.js ├── README.md 
 
 
 ## 📸 Screenshots
 
-![App Screenshot](LICENSE/todoList.png)
+![App Screenshot](Images/todoList.png)
 
 
 ## 🔧 Installation and Usage
