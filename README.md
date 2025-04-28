@@ -14,7 +14,7 @@ A simple and interactive To-Do List application built using HTML, CSS, and JavaS
 ## 🔗 Live Demo
 
 Check out the live version of the project here:  
-👉 [Live Demo](https://github.com/SumitNarwade24/To-do-List/) 👈
+👉 [Live Demo]( https://sumitnarwade24.github.io/To-do-List/) 👈
 
 
 ## 🛠️ Technologies Used
